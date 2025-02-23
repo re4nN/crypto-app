@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoApp" translatesAutoresizingMaskIntoConstraints="NO" id="GWl-Kc-AID">
+                                <rect key="frame" x="16" y="146" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="Wns-vC-0ql"/>
+                                    <constraint firstAttribute="width" constant="240" id="y4U-Gp-gdv"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Real-Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bTu-Vp-UE3">
+                                <rect key="frame" x="99" y="282" width="184" height="88"/>
+                                <fontDescription key="fontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="40"/>
+                                <color key="textColor" name="WhiteAsset"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crypto," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zw2-16-8T7">
+                                <rect key="frame" x="189" y="323" width="129" height="88"/>
+                                <fontDescription key="fontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="40"/>
+                                <color key="textColor" name="WhiteAsset"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insights!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sHC-WQ-aIW">
+                                <rect key="frame" x="181" y="378" width="179" height="52"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="40"/>
+                                <color key="textColor" name="YellowAsset"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="BackgroundDarkModeColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sHC-WQ-aIW" secondAttribute="trailing" constant="33" id="5eQ-fj-wfa"/>
+                            <constraint firstItem="GWl-Kc-AID" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="EWI-wR-BAE"/>
+                            <constraint firstItem="bTu-Vp-UE3" firstAttribute="top" secondItem="GWl-Kc-AID" secondAttribute="bottom" constant="8" id="GVV-dz-Vbh"/>
+                            <constraint firstItem="bTu-Vp-UE3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="99" id="QZC-JD-MBY"/>
+                            <constraint firstAttribute="trailing" secondItem="zw2-16-8T7" secondAttribute="trailing" constant="75" id="RRZ-x8-2Rs"/>
+                            <constraint firstItem="zw2-16-8T7" firstAttribute="top" secondItem="GWl-Kc-AID" secondAttribute="bottom" constant="49" id="Tpx-vE-jVb"/>
+                            <constraint firstAttribute="trailing" secondItem="zw2-16-8T7" secondAttribute="trailing" constant="75" id="U8v-KS-Xwu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sHC-WQ-aIW" secondAttribute="trailing" constant="33" id="c5F-2f-VBq"/>
+                            <constraint firstItem="zw2-16-8T7" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="e15-Hx-CMM"/>
+                            <constraint firstItem="bTu-Vp-UE3" firstAttribute="top" secondItem="GWl-Kc-AID" secondAttribute="bottom" constant="8" id="fIS-mP-1Nh"/>
+                            <constraint firstItem="sHC-WQ-aIW" firstAttribute="top" secondItem="bTu-Vp-UE3" secondAttribute="bottom" constant="8" id="ieO-qj-9DQ"/>
+                            <constraint firstItem="GWl-Kc-AID" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="87" id="lBo-pd-2qm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bTu-Vp-UE3" secondAttribute="trailing" symbolic="YES" id="mDv-zu-RHV"/>
+                            <constraint firstItem="sHC-WQ-aIW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="oyn-2C-zxu"/>
+                            <constraint firstItem="GWl-Kc-AID" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="87" id="wF4-eT-Kpy"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logoApp" width="540" height="140"/>
+        <namedColor name="BackgroundDarkModeColor">
+            <color red="0.11400000005960464" green="0.11400000005960464" blue="0.11400000005960464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteAsset">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="YellowAsset">
+            <color red="0.98799997568130493" green="0.81199997663497925" blue="0.22699999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
